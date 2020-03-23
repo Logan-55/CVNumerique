@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+}
+.blackBackground
+{
+    text-align: center;
+    background-color: black;
+    min-height: 90vh;
+    width: 90vh;
+    color: white;
+    border-radius: 50%;
+}
+.whiteBackground
+{
+    min-height: 100vh;
+    min-width: 100%;
+}
+.greyBackground
+{
+    background-color: grey;
+    min-height: 100vh;
+    min-width: 100%;
+}
+/*.graphContainer
+.dataContainer
+{
+    margin: 0 auto;
+}
+
+#appLastVersion 
+{
+    display: flex;
+}
+
+div.sbeData
+{
+    padding-right: 8px;
+    font-size: 30px;
+}
+
+#lastVersionData
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+} 
+
+#appStats
+{
+    height: 100%;
+}
+
+.blue
+{
+    background-color: rgb(0, 123, 255);
+}
+.red
+{
+    background-color: rgb(255, 68, 68);
+}
+.cyan
+{
+    background-color: rgb(159, 206, 255);
+}
+.grey
+{
+    background-color: rgb(222, 222, 222);
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* section #sbeVersionsGraph
+{
+    height: none;
+} */
+
+/* div.movableContainer {
+    padding: auto;
+    width: 30%; height: 400;
+    border : 1px solid rgb(47, 0, 255)
+} */
+
+/* div.graphContainer {
+    margin: 10%;
+    padding: 2%;
+    width: 80%; height: auto;
+    position: relative;
+    border : 1px solid rgb(255, 0, 0); 
+} */
+
+
+/* 
+canvas {
+    width: 300px;
+    height: 300px;
+} */
+
+/* #sbeDispoGraph
+{
+	width: 300px; 
+	margin: 0 auto
+}*/
+/* #container3 {
+	width: 800px;
+	margin: 0 auto
+}
+#sbeDispoGraph {
+	width: 350px;
+    max-height: 400px;
+	margin: 0 auto
+} */
