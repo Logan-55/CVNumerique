@@ -8,91 +8,136 @@ and open the template in the editor.
     <head>
         <title>Mon CV à moi que j'ai fait</title>
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
         <link rel="stylesheet" href="../public/CSS/style.css" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
-    <body>
-        <div class='whiteBackground'>
-            <div class='blackBackground'>
-                <br>
-                <p>  
-                    LV
-                </p>
-                <p>  
-                    "Car dans la vie, faut viser haut"
-                </p>
+    <body class='fluid-container'>
+        
+        <!--Barre de navigation-->
+        <nav id="navbar" class="navbar fixed-top navbar-expand-lg navbar-light ">
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#formation">Formation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Expériences</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
             </div>
-        </div>
+            
+        </nav>
+        <div class="backgroundPicture">
+        <section id="accueil">
+            <div class="whiteCircle shadow-lg">
+                <h1 id="name" class="text-center">
+                    Logan VICTOIRE
+                </h1>
+                <h2 id="role" class="text-center">
+                    Développeur Web/web mobile
+                </h2>
+            </div>
+        </section>
+            </div>
         <div>
-            <div class='whiteBackground'>
-                <p>
+            <section id="formation" class='whiteBackground'>
+                <h3>
                     Formation
-                </p> <br>
-                <p>
-                    2020 Formation Concepteur Développeur d'Applications<br>
-                </p>
-                <p>
-                    2018-2019 Formation développeur Web/Web mobile<br>
-                </p>
-                <p>
-                    2014-2015 DUT Année Spéciale Techniques de Commercialisation<br>
-                </p>
-                <p>
-                    2012-2014 BTS Assistant de Gestion PME/PMI<br>
-                </p>
-                <p>
-                    2011-2012 Baccalauréat ES Spécialité Mathématiques<br>
-                </p>
-            </div>
-            <div class='greyBackground'>
-                <p>
+                </h3> <br>
+                <ul>
+                    <li>
+                        <span>
+                            2020 Formation Concepteur Développeur d'Applications<br>
+                        </span>
+                        <span>
+                            2018-2019 Formation développeur Web/Web mobile<br>
+                        </span>
+                        <span>
+                            2014-2015 DUT Année Spéciale Techniques de Commercialisation<br>
+                        </span>
+                        <span>
+                            2012-2014 BTS Assistant de Gestion PME/PMI<br>
+                        </span>
+                        <span>
+                            2011-2012 Baccalauréat ES Spécialité Mathématiques<br>
+                        </span>
+                </ul>
+            </section>
+            <section id="experience">
+                <h3 class="text-center">
                     Expériences
-                </p><br>
-                <p>
-                    2019 - Développement Web<br>
-                    KONICA MINOLTA 
-                    Réalisation d'un application Dashboard pour le Pôle innovation de l'entreprise<br>
-                    - Application intégralement conçue en javascritpt<br>
-                    - Développement avec l'environnement Node.js<br>
-                    - Mise en place d'une méthode Agile
-                </p>
-                <p>
-                    2016-2017 Téléconseiller commercial<br>
-                    WEBHELP
-                    - 
-                    
-                </p>
-                <p>
-                    2015 Vendeur en prêt-à-porter<br>
-                   JULES 
-                    - Accueil et conseil clientèle.<br>
-                    - Mise en place et entretien des rayons.<br>
-                    - 
-                </p>
-                <p>
-                    2014 Agent administratif<br>
-                    SIMOP
-                </p>
-                <p>
-                    2013 Employé libre-service<br>
-                    E.LECLERC
-                    - 
-                    - Gestion du stock 
-                </p>
-                <p>
-                    2013 Agent administratif<br>
-                    DEKRA
-                    - Accueil clientèle
-                    - Gestion du planning de rendez-vous
-                </p>
-            </div>    
+                </h3>
+                <ul>
+                    <li>
+                        
+                        <span>
+                            2019 - Développement Web
+                        </span>
+                        <h5>KONICA MINOLTA</h5>
+                        <p>  Réalisation d'un application Dashboard pour le Pôle innovation de l'entreprise<br>
+                            - Application intégralement conçue en javascritpt<br>
+                            - Développement avec l'environnement Node.js<br>
+                            - Mise en place d'une méthode Agile
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            2016-2017 Téléconseiller commercial<br>
+                            WEBHELP
+                            - 
+
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            2015 Vendeur en prêt-à-porter<br>
+                           JULES 
+                            - Accueil et conseil clientèle.<br>
+                            - Mise en place et entretien des rayons.<br>
+                            - 
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            2014 Agent administratif<br>
+                            SIMOP
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            2013 Employé libre-service<br>
+                            E.LECLERC
+                            - 
+                            - Gestion du stock 
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            2013 Agent administratif<br>
+                            DEKRA
+                            - Accueil clientèle
+                            - Gestion du planning de rendez-vous
+                        </p>
+                    </li>
+                </ul>
+            </section>    
         </div>
-        <div class='whiteBackground'>
-            Portfolio
-        </div>
-        <div class='blackBackground'>
+        <section id="portfolio" class='whiteBackground'>
+           
+                <img alt="En cours de construction" src="../public/images/entravaux.jpg" class="entravaux">
+        
+        </section>
+        <section id="contact">
             Contact
-        </div>
+        </section>
         
     </body>
 </html>
